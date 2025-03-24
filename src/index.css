@@ -1,0 +1,40 @@
+:root {
+  --color-light-10: #FFFFFF;
+  --color-light-20: #f4f4f4;
+  --color-light-30: #DDDDDD;
+  --color-gray: #555555;
+  --color-dark-gray: #333;
+  --color-transparent: rgba(0, 0, 0, 0.1);
+
+  --shadow: 0 0 10px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+body {
+  background-color: var(--color-light-20);
+}
+
+a[class] {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  min-height: calc(100vh - 120px); /* Adjust based on header and footer height */
+  margin: 1rem;
+  gap: 1rem;
+}

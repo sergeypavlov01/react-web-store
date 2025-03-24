@@ -1,0 +1,19 @@
+.list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.link:hover {
+  color: #ddd;
+}
+
+.active {
+  color: var(--color-light-30) !important;
+}

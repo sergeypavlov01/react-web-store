@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      id: 1,
+      image: "racket1.jpg",
+      title: "Torneo Pulse Carbon Alu Black Tennis Racket",
+      price: 99.99,
+    },
+    {
+      id: 2,
+      image: "racket2.jpg",
+      title: "Torneo Pulse Carbon Alu White Tennis Racket",
+      price: 129.99,
+    },
+    {
+      id: 3,
+      image: "racket3.jpg",
+      title: "Head Instinct Team Tennis Racket",
+      price: 399.99,
+    },
+    {
+      id: 4,
+      image: "racket4.jpg",
+      title: "Head Gravity Team Tennis Racket",
+      price: 489.99,
+    },
+    {
+      id: 5,
+      image: "racket5.jpg",
+      title: "FILA Force TEAM Tennis Racket",
+      price: 199.99,
+    },
+    {
+      id: 6,
+      image: "racket6.jpg",
+      title: "Head Gravity MP Tennis Racket",
+      price: 109.99,
+    },
+    {
+      id: 7,
+      image: "racket7.jpg",
+      title: "Head Speed MP Tennis Racket",
+      price: 249.99,
+    },
+    {
+      id: 8,
+      image: "racket8.jpg",
+      title: "Head MX Attitude Elite Tennis Racket",
+      price: 139.99,
+    },
+    {
+      id: 9,
+      image: "racket9.jpg",
+      title: "Head Gravity PRO Tennis Racket",
+      price: 349.99,
+    },
+    {
+      id: 10,
+      image: "racket10.jpg",
+      title: "Babolat Evo Aero Tennis Racket",
+      price: 129.99,
+    },
+    {
+      id: 11,
+      image: "racket11.jpg",
+      title: "Head Gravity MP Tennis Racket",
+      price: 99.99,
+    },
+    {
+      id: 12,
+      image: "racket12.jpg",
+      title: "Head Speed MP L Tennis Racket",
+      price: 69.99,
+    },
+  ],
+}
