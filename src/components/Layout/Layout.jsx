@@ -9,7 +9,7 @@ export const Layout = () => {
   return (
     <>
       <Header />
-      <div className="container">
+      <div className={match ? "container" : "container center"}>
         {match ? <Sidebar /> : null}
         <main>
           <Outlet />

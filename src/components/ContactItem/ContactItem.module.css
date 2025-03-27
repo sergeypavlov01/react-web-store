@@ -1,0 +1,19 @@
+.contactItem {
+  background-color: var(--color-light);
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: var(--shadow) var(--color-transparent);
+  text-align: center;
+  flex: 1;
+}
+
+.title {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--color-dark-gray);
+}
+
+.desc {
+  color: var(--color-gray);
+  font-size: 1rem;
+}

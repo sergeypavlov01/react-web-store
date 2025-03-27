@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--color-light-10);
+  min-width: 300px;
   padding: 1rem;
   border-radius: 5px;
   box-shadow: var(--shadow) var(--color-transparent);

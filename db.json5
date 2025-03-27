@@ -73,4 +73,42 @@
       price: 69.99,
     },
   ],
+    "users": [
+    {
+      "id": 1,
+      "name": "Elizabeth",
+      "surname": "Windsor",
+      "gender": "woman",
+      "avatar": "people1.jpg",
+      "dateOfBirth": "13.07.1992",
+      "account": {
+        "email": "eliz_windsor@gmail.com",
+        "password": "cosmostar3012"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Alexandr",
+      "surname": "Gavrilov",
+      "gender": "man",
+      "avatar": "people2.jpg",
+      "dateOfBirth": "22.02.1997",
+      "account": {
+        "email": "alex_gavrilov@gmail.com",
+        "password": "summerYa123"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Petr",
+      "surname": "Ermakov",
+      "gender": "man",
+      "avatar": "people3.jpg",
+      "dateOfBirth": "10.10.1995",
+      "account": {
+        "email": "petr_erm@yandex.com",
+        "password": "nihao30002abc"
+      }
+    }
+  ]
 }

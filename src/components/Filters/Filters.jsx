@@ -13,7 +13,7 @@ export const Filters = () => {
       <FilterSection filterSectionTitle="By Price">
         <label>
           Price: {price}$
-          <input onChange={(e) => setPrice(e.target.value)} step="10" type="range" min="0" max="500" />
+          <input value={price} onChange={(e) => setPrice(e.target.value)} step="10" type="range" min="0" max="500" />
         </label>
       </FilterSection>
 
