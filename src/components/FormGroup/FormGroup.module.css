@@ -12,7 +12,7 @@
 .field {
   padding: 0.75rem;
   font-size: 1rem;
-  border: 1px solid var(--color-light-30);
+  border: var(--border);
   border-radius: 5px;
   outline: none;
 }

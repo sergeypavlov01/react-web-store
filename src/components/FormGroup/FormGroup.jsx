@@ -6,7 +6,7 @@ export const FormGroup = ({ label, ...inputProps }) => {
       <label className={styles.fieldName} htmlFor={inputProps.id}>
         {label}
       </label>
-      <input className={styles.field} {...inputProps} />
+      <input autoComplete="true" className={styles.field} {...inputProps} />
     </div>
   );
 };

@@ -39,17 +39,13 @@ export const LoginSection = () => {
       const users = await fetchUsers();
       if (!users) return;
 
-      const user = users.find(
-        (u) => {
-          console.log(u);
-          return u.account.email === email && u.account.password === password
-        }
-      );
+      const user = users.find((u) => {
+        return u.account.email === email && u.account.password === password;
+      });
 
       if (user) {
         if (error) setError(null);
-        console.log(login)
-        login(() => {
+        login(user, () => {
           navigate(back);
         });
       } else {

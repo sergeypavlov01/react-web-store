@@ -1,0 +1,52 @@
+.infoGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.labelName {
+  font-weight: bold;
+  color: var(--color-dark-gray);
+  width: 120px;
+}
+
+.infoGroup p {
+  color: var(--color-gray);
+  font-size: 1rem;
+}
+
+.infoGroup input[type="text"],
+.infoGroup input[type="date"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: var(--border);
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+}
+
+.infoGroup input[type="text"]:focus,
+.infoGroup input[type="date"]:focus {
+  border-color: var(--color-dark-gray);
+}
+
+.genderOptions {
+  display: flex;
+  gap: 1rem;
+}
+
+.genderOptions label {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-weight: normal;
+  color: var(--color-gray);
+}
+
+.genderOptions input[type="radio"] {
+  accent-color: var(--color-dark-gray);
+}
+
+.genderOptions input[type="radio"]:disabled {
+  opacity: 0.5;
+}
