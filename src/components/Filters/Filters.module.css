@@ -7,3 +7,9 @@ input[type="range"] {
   width: 100%;
   padding: 0.5rem;
 }
+
+.btnContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}

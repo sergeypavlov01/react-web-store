@@ -1,0 +1,122 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 3.5rem 0;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(58, 138, 12);
+  border-radius: 50%;
+  position: absolute;
+  overflow: hidden;
+  animation-delay: 2s;
+  -webkit-animation: loading 0.7s ease-in-out;
+  -o-animation: loading 0.7s ease-in-out;
+  -moz-animation: loading 0.7s ease-in-out;
+  animation: loading 0.7s ease-in-out;
+  -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
+  animation-iteration-count: 5;
+}
+
+.ball:before,
+.ball:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 50px;
+  width: 50px;
+  border: solid 3px #fff;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.ball:before {
+  left: 35px;
+}
+
+.ball:after {
+  left: -35px;
+}
+
+.text {
+  text-align: center;
+  margin-top: 5.25rem;
+  margin-left: 0.5rem;
+  color: var(--color-dark-gray);
+  font-weight: 700;
+  z-index: 99;
+}
+
+@-webkit-keyframes loading {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-o-keyframes loading {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-moz-keyframes loading {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes loading {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

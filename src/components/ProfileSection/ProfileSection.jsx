@@ -19,7 +19,7 @@ export const ProfileSection = () => {
 
       <div className={styles.card}>
         <div className={styles.picture}>
-          <img src={"images/" + user.avatar} alt="profile picture" />
+          <img src={"images/" + user.avatar} alt="profile avatar" />
         </div>
         <div className={styles.info}>
           <ProfileInfoGroup label='Name' value={user.name} type='text'/>
