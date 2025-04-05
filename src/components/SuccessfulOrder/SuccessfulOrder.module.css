@@ -1,0 +1,8 @@
+.title {
+  color: var(--color-dark-gray);
+  margin-bottom: 1rem;
+}
+
+.text {
+  color: var(--color-dark-gray);
+}

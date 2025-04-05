@@ -5,9 +5,11 @@ import { useParams } from "react-router";
 import { useEffect, useState } from "react";
 import { useFetching } from "../../hook/useFetching";
 import { getProductById } from "../../api";
+import { useCart } from "../../hook/useCart";
 
 export const ProductDetailsSection = () => {
   const { id } = useParams();
+  const { addToCard } = useCart();
   const [product, setProduct] = useState(null);
   const { fetchData, error, isLoading } = useFetching(async () => {
     const res = await getProductById(id);
@@ -50,7 +52,7 @@ export const ProductDetailsSection = () => {
                   <span className={styles.weight}>{product.weight} grams</span>
                 </p>
               </div>
-              <button className={styles.btn}>Add to Cart</button>
+              <button onClick={() => addToCard({ id: id })} className={styles.btn}>Add to Cart</button>
             </div>
           </div>
         </section>

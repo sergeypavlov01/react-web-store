@@ -16,7 +16,7 @@
 
 .card {
   display: flex;
-  gap: 2rem;
+  column-gap: 3rem;
   align-items: center;
 }
 
@@ -37,9 +37,9 @@
 
 .actions {
   display: flex;
-  gap: 1rem;
-  justify-content: flex-end;
-  margin-top: 1rem;
+  flex-direction: column;
+  row-gap: 1rem;
+  /* justify-content: flex-end; */
 }
 
 .btn {

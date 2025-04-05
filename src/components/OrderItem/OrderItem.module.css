@@ -1,0 +1,9 @@
+.orderItem {
+  color: var(--color-gray);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.quantity {
+  color: var(--color-danger);
+}

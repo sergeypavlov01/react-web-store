@@ -1,6 +1,6 @@
 import styles from "./ProfileInfoGroup.module.css";
 
-export const ProfileInfoGroup = ({ label, value, type, isGender = false, gender }) => {
+export const ProfileInfoGroup = ({ label, value, type, name, isGender = false, gender, isEdit }) => {
   return (
     <div className={styles.infoGroup}>
       <label className={styles.labelName}>{label}:</label>
@@ -22,7 +22,8 @@ export const ProfileInfoGroup = ({ label, value, type, isGender = false, gender 
           <input
             type={type}
             defaultValue={value}
-            style={{display: 'none'}}
+            name={name}
+            style={ isEdit ? {display: 'block'} : {display: 'none'}}
           />
         </>
       )}
